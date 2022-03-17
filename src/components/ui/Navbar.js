@@ -1,11 +1,14 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 
 export const Navbar = () => {
 
+    const Navigate = useNavigate();
+
     const handleLogout = () =>{
-        //TODO: por hacer
-        console.log('logout');
+        Navigate('/login',{
+            replace:true
+        });
     }
     
     return (
@@ -32,6 +35,13 @@ export const Navbar = () => {
                         to="/dc"
                     >
                         DC
+                    </NavLink>
+
+                    <NavLink 
+                        className={ ({isActive}) => "hover:bg-blue-600 py-2 px-3 hover:px-3 hover:py-2 hover:rounded-lg text-center " + (isActive ? 'font-bold bg-blue-700 rounded-md' : '')}  
+                        to="/search"
+                    >
+                        Buscar
                     </NavLink>
                 </div>
 

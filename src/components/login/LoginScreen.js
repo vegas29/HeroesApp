@@ -1,7 +1,13 @@
+import { useNavigate } from "react-router-dom"
+
 export const LoginScreen = () => {
 
+  const navigate = useNavigate();
+
   const handleLogin = () =>{
-    console.log('Login')
+    navigate('/', {
+      replace: true
+    });
   }
   return (
     <div className="bg-gray-100 h-screen">
@@ -41,6 +47,7 @@ export const LoginScreen = () => {
 
             <button
               className="bg-blue-600 hover:bg-blue-700 text-white text-xl rounded-md my-10 py-2 mx-auto flex justify-center w-10/12 md:w-9/12"
+              onClick={handleLogin}
             >
               Login
             </button>
