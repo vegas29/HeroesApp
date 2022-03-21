@@ -1,0 +1,924 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter/> Debe de mostrar el componente inicial si está autenticado 1`] = `
+Array [
+  <nav
+    className="bg-blue-500 p-5 shadow-lg text-white text-xl"
+  >
+    <div
+      className="container mx-auto flex flex-col md:flex-row items-center  gap-5 "
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        Asociaciones
+      </a>
+      <div
+        className="flex flex-col md:flex-row gap-5 items-center"
+      >
+        <a
+          className="hover:bg-blue-600 py-2 px-3 hover:px-3 hover:py-2 hover:rounded-lg text-center "
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+        <a
+          className="hover:bg-blue-600 py-2 px-3 hover:px-3 hover:py-2 hover:rounded-lg text-center "
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          className="hover:bg-blue-600 py-2 px-3 hover:px-3 hover:py-2 hover:rounded-lg text-center "
+          href="/search"
+          onClick={[Function]}
+        >
+          Buscar
+        </a>
+      </div>
+      <div
+        className="flex gap-2 md:justify-end md:w-full"
+      >
+        <ul
+          className="flex items-center gap-5"
+        >
+          <span
+            className="font-semibold"
+          >
+            Bienvenido 
+            Alejandro
+          </span>
+          <button
+            className="hover:bg-blue-600 py-2 px-3 hover:px-3 hover:py-2 hover:rounded-lg"
+            onClick={[Function]}
+          >
+            <i
+              className="fa-solid fa-right-from-bracket"
+            />
+          </button>
+        </ul>
+      </div>
+    </div>
+  </nav>,
+  <div
+    className="container mx-auto"
+  >
+    <div>
+      <h1
+        className="text-center font-bold text-2xl py-5"
+      >
+        Marvel Heroes
+      </h1>
+      <div
+        className="grid grid-cols-1 gap-5 justify-center items-center md:grid-cols-2 lg:grid-cols-4 animate__animated animate__fadeIn"
+      >
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Spider Man"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-spider.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Spider Man
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Peter Parker
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Amazing Fantasy #15
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-spider"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Captain America"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-captain.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Captain America
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Steve Rogers
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Captain America Comics #1
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-captain"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Iron Man"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-iron.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Iron Man
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Tony Stark
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Tales of Suspense #39
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-iron"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Thor"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-thor.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Thor
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Thor Odinson
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Journey into Myster #83
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-thor"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Hulk"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-hulk.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Hulk
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Bruce Banner
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                The Incredible Hulk #1
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-hulk"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Wolverine"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-wolverine.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Wolverine
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                James Howlett
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                The Incredible Hulk #180
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-wolverine"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Daredevil"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-daredevil.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Daredevil
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Matthew Michael Murdock
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Daredevil #1
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-daredevil"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Hawkeye"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-hawkeye.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Hawkeye
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Clinton Francis Barton
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                Tales of Suspense #57
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-hawkeye"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Cyclops"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-cyclops.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Cyclops
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Scott Summers
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                X-Men #1
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-cyclops"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+        >
+          <div
+            className="overflow-hidden rounded-t-lg grow"
+          >
+            <img
+              alt="Silver Surfer"
+              className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+              src="assets/img/marvel-silver.jpg"
+            />
+          </div>
+          <p
+            className="text-center font-bold text-xl flex-none"
+          >
+            Silver Surfer
+          </p>
+          <div
+            className="flex flex-col px-5 flex-none md:h-56"
+          >
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Publisher:
+              <span
+                className="ml-2 font-normal"
+              >
+                Marvel Comics
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              Name:
+              <span
+                className="ml-2 font-normal"
+              >
+                Norrin Radd
+              </span>
+            </p>
+            <p
+              className="text-md md:text-base font-semibold"
+            >
+              <span>
+                <i
+                  className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+                />
+              </span>
+              First Appearance:
+              <span
+                className="ml-2 font-normal block"
+              >
+                The Fantastic Four #48
+              </span>
+            </p>
+          </div>
+          <div
+            className="flex justify-end px-5"
+          >
+            <a
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+              href="/hero/marvel-silver"
+              onClick={[Function]}
+            >
+              Más información
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en <AppRouter/> Debe de mostrar el login si no está autenticado 1`] = `
+<div
+  className="bg-gray-100 h-screen"
+>
+  <div
+    className="container mx-auto"
+  >
+    <div
+      className="text-center"
+    >
+      <i
+        className="fa-solid fa-right-to-bracket text-5xl mt-10 mb-5 text-blue-700"
+      />
+      <p
+        className="font-bold text-3xl"
+      >
+        Sign in to your account
+      </p>
+    </div>
+    <div
+      className="mt-10 pb-5 mx-4 shadow-xl md:max-w-xl md:mx-auto bg-white rounded-xl"
+    >
+      <div
+        className="pt-10 px-7 md:px-20"
+      >
+        <label
+          className="block mb-1"
+          htmlFor="user"
+        >
+          Username
+        </label>
+        <input
+          className="w-full px-5 bg-gray-100 rounded-md h-10"
+          type="text"
+        />
+      </div>
+      <div
+        className="pt-3 px-7 md:px-20"
+      >
+        <label
+          className="block mb-1"
+          htmlFor="user"
+        >
+          Password
+        </label>
+        <input
+          className="w-full px-5 bg-gray-100 rounded-md h-10"
+          type="password"
+        />
+      </div>
+      <button
+        className="bg-blue-600 hover:bg-blue-700 text-white text-xl rounded-md my-10 py-2 mx-auto flex justify-center w-10/12 md:w-9/12"
+        onClick={[Function]}
+      >
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+`;

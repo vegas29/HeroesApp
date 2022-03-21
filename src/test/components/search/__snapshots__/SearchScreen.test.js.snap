@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen/> Debe de mostrar a Batman y el input con el valor del queryString 1`] = `
+Array [
+  <h1
+    className="text-center font-bold mt-10 text-2xl"
+  >
+     Busquedas 
+  </h1>,
+  <div
+    className="bg-white shadow-md rounded-md"
+  >
+    <div
+      className="text-center py-7 md:py-10 md:w-5/12 mx-auto px-5"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <span
+          className="font-semibold text-md my-2 block"
+        >
+          Inserte el nombre del héroe
+        </span>
+        <input
+          autoComplete="false"
+          className="w-full px-5 rounded-md shadow-sm h-12 bg-gray-100"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Buscar un héroe"
+          type="text"
+          value="batman"
+        />
+        <input
+          className="w-full  bg-blue-500 hover:bg-blue-600 text-white cursor-pointer mt-5 py-2 rounded-md text-md font-semibold"
+          type="submit"
+          value="Buscar"
+        />
+      </form>
+    </div>
+  </div>,
+  <h2
+    className="text-center font-bold mt-10 text-2xl"
+  >
+    Resultados
+  </h2>,
+  <div
+    className="text-center py-7 md:py-10 md:max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-5"
+  >
+    <div
+      className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn"
+    >
+      <div
+        className="overflow-hidden rounded-t-lg grow"
+      >
+        <img
+          alt="Batman"
+          className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black"
+          src="assets/img/dc-batman.jpg"
+        />
+      </div>
+      <p
+        className="text-center font-bold text-xl flex-none"
+      >
+        Batman
+      </p>
+      <div
+        className="flex flex-col px-5 flex-none md:h-56"
+      >
+        <p
+          className="text-md md:text-base font-semibold"
+        >
+          <span>
+            <i
+              className="fa-solid fa-book text-gray-400 text-2xl mr-2"
+            />
+          </span>
+          Publisher:
+          <span
+            className="ml-2 font-normal"
+          >
+            DC Comics
+          </span>
+        </p>
+        <p
+          className="text-md md:text-base font-semibold"
+        >
+          <span>
+            <i
+              className="fa-solid fa-user text-gray-400 text-2xl mr-2"
+            />
+          </span>
+          Name:
+          <span
+            className="ml-2 font-normal"
+          >
+            Bruce Wayne
+          </span>
+        </p>
+        <p
+          className="text-md md:text-base font-semibold"
+        >
+          <span>
+            <i
+              className="fa-solid fa-clock text-gray-400 text-2xl mr-2"
+            />
+          </span>
+          First Appearance:
+          <span
+            className="ml-2 font-normal block"
+          >
+            Detective Comics #27
+          </span>
+        </p>
+      </div>
+      <div
+        className="flex justify-end px-5"
+      >
+        <a
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white cursor-pointer rounded-md text-center font-semibold py-2"
+          href="/hero/dc-batman"
+          onClick={[Function]}
+        >
+          Más información
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en <SearchScreen/> Debe de mostrar un error si no se encuentra el hero 1`] = `
+Array [
+  <h1
+    className="text-center font-bold mt-10 text-2xl"
+  >
+     Busquedas 
+  </h1>,
+  <div
+    className="bg-white shadow-md rounded-md"
+  >
+    <div
+      className="text-center py-7 md:py-10 md:w-5/12 mx-auto px-5"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <span
+          className="font-semibold text-md my-2 block"
+        >
+          Inserte el nombre del héroe
+        </span>
+        <input
+          autoComplete="false"
+          className="w-full px-5 rounded-md shadow-sm h-12 bg-gray-100"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Buscar un héroe"
+          type="text"
+          value="batman123"
+        />
+        <input
+          className="w-full  bg-blue-500 hover:bg-blue-600 text-white cursor-pointer mt-5 py-2 rounded-md text-md font-semibold"
+          type="submit"
+          value="Buscar"
+        />
+      </form>
+    </div>
+  </div>,
+  <h2
+    className="text-center font-bold mt-10 text-2xl"
+  >
+    Resultados
+  </h2>,
+  <div
+    className="bg-red-600 text-white text-center text-2xl font-bold shadow-lg rounded-lg w-full md:w-5/12 mx-auto py-10 mt-5"
+  >
+    No hay resultados de 
+    batman123
+  </div>,
+  <div
+    className="text-center py-7 md:py-10 md:max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-5"
+  />,
+]
+`;
+
+exports[`Pruebas en <SearchScreen/> Debe de mostrarse correctamente con valores por defecto 1`] = `
+Array [
+  <h1
+    className="text-center font-bold mt-10 text-2xl"
+  >
+     Busquedas 
+  </h1>,
+  <div
+    className="bg-white shadow-md rounded-md"
+  >
+    <div
+      className="text-center py-7 md:py-10 md:w-5/12 mx-auto px-5"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <span
+          className="font-semibold text-md my-2 block"
+        >
+          Inserte el nombre del héroe
+        </span>
+        <input
+          autoComplete="false"
+          className="w-full px-5 rounded-md shadow-sm h-12 bg-gray-100"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Buscar un héroe"
+          type="text"
+          value=""
+        />
+        <input
+          className="w-full  bg-blue-500 hover:bg-blue-600 text-white cursor-pointer mt-5 py-2 rounded-md text-md font-semibold"
+          type="submit"
+          value="Buscar"
+        />
+      </form>
+    </div>
+  </div>,
+  <h2
+    className="text-center font-bold mt-10 text-2xl"
+  >
+    Resultados
+  </h2>,
+  <div
+    className="bg-white text-gray-400 text-center text-2xl font-bold shadow-lg rounded-lg w-full md:w-5/12 mx-auto py-10 mt-5"
+  >
+    Busca un heroe, para que se muestre aquí
+  </div>,
+  <div
+    className="text-center py-7 md:py-10 md:max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-5"
+  />,
+]
+`;

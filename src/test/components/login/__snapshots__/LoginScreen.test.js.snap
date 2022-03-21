@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginComponent/> Debe de hacer match con el snapshot 1`] = `
+<div
+  className="bg-gray-100 h-screen"
+>
+  <div
+    className="container mx-auto"
+  >
+    <div
+      className="text-center"
+    >
+      <i
+        className="fa-solid fa-right-to-bracket text-5xl mt-10 mb-5 text-blue-700"
+      />
+      <p
+        className="font-bold text-3xl"
+      >
+        Sign in to your account
+      </p>
+    </div>
+    <div
+      className="mt-10 pb-5 mx-4 shadow-xl md:max-w-xl md:mx-auto bg-white rounded-xl"
+    >
+      <div
+        className="pt-10 px-7 md:px-20"
+      >
+        <label
+          className="block mb-1"
+          htmlFor="user"
+        >
+          Username
+        </label>
+        <input
+          className="w-full px-5 bg-gray-100 rounded-md h-10"
+          type="text"
+        />
+      </div>
+      <div
+        className="pt-3 px-7 md:px-20"
+      >
+        <label
+          className="block mb-1"
+          htmlFor="user"
+        >
+          Password
+        </label>
+        <input
+          className="w-full px-5 bg-gray-100 rounded-md h-10"
+          type="password"
+        />
+      </div>
+      <button
+        className="bg-blue-600 hover:bg-blue-700 text-white text-xl rounded-md my-10 py-2 mx-auto flex justify-center w-10/12 md:w-9/12"
+        onClick={[Function]}
+      >
+        Login
+      </button>
+    </div>
+  </div>
+</div>
+`;
