@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { heroImages } from "../../helpers/heroImages";
+
 
 
 export const HeroCard = ({
@@ -16,7 +18,7 @@ export const HeroCard = ({
         <div className="flex flex-col justify-between bg-white shadow-md rounded-md gap-5 mx-5 h-96 md:h-max pb-5 md:w-92 hover:shadow-xl cursor-pointer hover:scale-110 transition-all duration-150 animate__animated animate__fadeIn">
 
             <div className="overflow-hidden rounded-t-lg grow">
-                <img src={imagePath} className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black" alt={superhero}/>
+                <img src={heroImages(`./${id}.jpg`)} className="object-cover grow w-full h-72 md:h-96 rounded-t-lg  hover:scale-110 cursor-pointer transition-all duration-150 hover:bg-black" alt={superhero}/>
             </div>
 
             <p className="text-center font-bold text-xl flex-none">{superhero}</p>
